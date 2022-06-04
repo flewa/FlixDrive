@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import "../../css/components/fileList.scss"
 
 const DriveFilesList = () => {
@@ -8,6 +7,10 @@ const DriveFilesList = () => {
 
     return (
         <div className="fileslist" id='fileslist'>
+            <div className="headlist">
+                <p className="drivetitle">🔒 Your files list : </p>
+                <div className='sep'/>
+            </div>
             {drive.map((file, i) => 
                 <div className="fileblock" key={i}>
                     <p className="filetitle" key={i+file.Title}>Title: {file.Title}</p>
