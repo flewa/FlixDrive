@@ -1,0 +1,22 @@
+.fileblock{
+    padding-left: 1em;
+    flex: 0 0 calc(100% - 1em);
+    margin: 0.25em 0.5em;
+    border-radius: 0.5em;
+
+    &:hover{
+        background-color: #1a1a1b2e;
+    }
+}
+
+.fileslist{
+    border-radius: 0.3em;
+    color: antiquewhite;
+    background-color: #2b2b2c;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
