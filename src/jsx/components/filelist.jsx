@@ -10,7 +10,11 @@ const DriveFilesList = () => {
         <div className="fileslist" id='fileslist'>
             {drive.map((file, i) => 
                 <div className="fileblock" key={i}>
-                    <p className="fileinfo" key={i}>Title: {file.Title} {file.Size}</p>
+                    <p className="filetitle" key={i+file.Title}>Title: {file.Title}</p>
+                    <p className="filesize" key={i+file.Size}>Size: {file.Size}</p>
+                    <button className="delete" key={i+"delete"}><i className="fa-solid fa-trash"></i></button>
+                    <button className="link" key={i+"link"}><i className="fa-solid fa-link"></i></button>
+
                 </div>
             )}
         </div>

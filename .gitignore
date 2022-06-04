@@ -1997,3 +1997,4 @@ node_modules/vite/types/package.json
 node_modules/vite/types/shims.d.ts
 node_modules/vite/types/terser.d.ts
 node_modules/vite/types/ws.d.ts
+yarn.lock
