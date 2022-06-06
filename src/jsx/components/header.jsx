@@ -6,13 +6,14 @@ import { gapi } from 'gapi-script';
 const HeaderInfo = () => {
 
     const money = '0$'
-    const GoogleClientID = "275499235587-e1phr0itqpnd2c5rtor2gj5s1641dtcg.apps.googleusercontent.com"
+    const GoogleClientID = "275499235587-5pehrk2ogbodc6fbs16hbmmvkk8soi3d.apps.googleusercontent.com"
 
     useEffect(() => {
         function start() {
           gapi.client.init({
             clientId: GoogleClientID,
             scope: 'email',
+            cookiepolicy: "single_host_origin",
           });
         }
     
