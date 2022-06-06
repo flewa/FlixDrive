@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "vite.config.js",
   "dependencies": {
-    "discord-oauth2": "^2.10.0",
+    "axios": "^0.27.2",
+    "discord-oauth2-api": "^1.1.2",
     "prop-types": "^15.8.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",

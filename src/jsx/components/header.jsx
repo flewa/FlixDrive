@@ -4,7 +4,6 @@ import '../../css/components/header.scss'
 const HeaderInfo = () => {
 
     const money = '0$'
-
     return (
         <div className='headerbar'>
             <div className="left">
@@ -14,7 +13,6 @@ const HeaderInfo = () => {
             <div className="right">
                 <div className="right-items" onClick={()=>document.location="/dashboard"} >Dashboard</div>
                 <div className="right-items" onClick={()=>document.location="/price"}>Price</div>
-                <div className="right-items" onClick={()=>document.location="/login"}>Login</div>
             </div>
         </div>
     );
