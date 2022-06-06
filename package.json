@@ -5,9 +5,11 @@
   "dependencies": {
     "axios": "^0.27.2",
     "discord-oauth2-api": "^1.1.2",
+    "gapi-script": "^1.2.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-google-login": "^5.2.2",
     "react-router-dom": "^6.3.0",
     "sass": "1.52.2"
   },

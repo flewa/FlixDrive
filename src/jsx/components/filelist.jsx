@@ -3,7 +3,7 @@ import "../../css/components/fileList.scss"
 
 const DriveFilesList = () => {
 
-    const drive = [{"Title":"examplefile.odt","Size" : "0.0Gb"},{"Title":"examplefile1.odt","Size" : "0.0Gb"},{"Title":"examplefile2.odt","Size" : "0.0Gb"},{"Title":"examplefile3.odt","Size" : "0.0Gb"}]
+    const drive = [{"Title":"Script.js","Size" : "0.0Gb"},{"Title":"examplefile1.odt","Size" : "0.0Gb"},{"Title":"examplefile2.odt","Size" : "0.0Gb"},{"Title":"examplefile3.odt","Size" : "0.0Gb"}]
 
     return (
         <div className="fileslist" id='fileslist'>
@@ -17,7 +17,6 @@ const DriveFilesList = () => {
                     <p className="filesize" key={i+file.Size}>Size: {file.Size}</p>
                     <button className="delete" key={i+"delete"}><i className="fa-solid fa-trash"></i></button>
                     <button className="link" key={i+"link"}><i className="fa-solid fa-link"></i></button>
-
                 </div>
             )}
         </div>
